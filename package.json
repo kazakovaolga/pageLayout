@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "prettier --check . && eslint . && stylelint \"./src/css/*.css\"",
+    "lint": "prettier --write . && eslint . && stylelint \"./src/css/*.css\"",
     "lint:fix": "prettier --write . && eslint . --fix && stylelint \"./src/css/*.css\" --fix",
     "prepare": "husky install",
     "build": "webpack --node-env production",
