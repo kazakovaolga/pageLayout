@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: aquamarine;
+  margin: 0 auto;
+  height: 220px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav {
+  display: inline-block;
+  height: 180px;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 11px;
+  font-weight: bolder;
+  text-align: left;
+  vertical-align: top;
+}
+
+.emblem {
+  width: 200px;
+  height: 200px;
+}
+
+.tournaments {
+  color: black;
+  font-size: 11px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.news {
+  color: black;
+  font-size: 11px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.timetable {
+  color: black;
+  font-size: 11px;
+  font-weight: 200;
+  text-align: left;
+}
+
+.img-timetable {
+  margin-left: 0;
+  width: 300px;
+  height: 500px;
+}
+
+.flex-box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  width: 30%;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+.grid-item {
+  justify-self: center;
+  align-self: center;
+  background-color: aquamarine;
+}
+
+.h {
+  color: red;
+}
+
+.indentation {
+  margin-left: 100px;
+}
