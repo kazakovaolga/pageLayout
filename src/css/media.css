@@ -1,4 +1,4 @@
-@media screen and (max-width: 529px) {
+@media screen and (max-width: 576px) {
   .emblem {
     padding-left: 20%;
     padding-top: 3%;
@@ -10,21 +10,16 @@
 
   .flex-box {
     gap: 40px;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
   }
 
   .grid-box {
     grid-template-columns: repeat(1, 1fr);
     width: 30%;
   }
-
-  /* .grid-item{
-        justify-self: center;
-        align-self: center;
-    } */
 }
 
-@media screen and (min-width: 530px) and (max-width: 609px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   .emblem {
     width: 100px;
     height: 100px;
@@ -39,11 +34,10 @@
   .grid-box {
     grid-template-columns: repeat(2, 1fr);
     width: 30%;
-
   }
 }
 
-@media screen and (min-width: 610px) and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .emblem {
     width: 180px;
     height: 180px;
@@ -58,8 +52,5 @@
   .grid-box {
     grid-template-columns: repeat(3, 1fr);
     width: 50%;
-
-    /* align-items: center;
-        justify-items: center; */
   }
 }

@@ -1,14 +1,11 @@
 body {
   background-color: white;
   overflow-x: hidden;
-
-  /* width: 478px; */
   margin: 0 auto;
 }
 
 .header {
-  /* width: 478px;    */
-  background-color: aquamarine;  
+  background-color: aquamarine;
   margin: 0 auto;
   height: 220px;
   top: 0;
@@ -19,7 +16,7 @@ body {
 .nav {
   display: inline-block;
   height: 180px;
-  color:black;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 11px;
   font-weight: bolder;
@@ -75,11 +72,18 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  width: 100%;  
+  width: 100%;
 }
 
 .grid-item {
   justify-self: center;
   align-self: center;
   background-color: aquamarine;
+}
+
+.h{
+    color: red
+}
+.indentation{
+    margin-left: 100px
 }
