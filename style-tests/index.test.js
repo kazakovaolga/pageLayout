@@ -2,7 +2,6 @@ import puppeteer from "puppeteer";
 import { toMatchImageSnapshot } from "jest-image-snapshot";
 
 expect.extend({ toMatchImageSnapshot });
-const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 describe("styles.test", () => {
     // Give time to any async operation to complete after each test
