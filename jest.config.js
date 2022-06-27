@@ -167,7 +167,7 @@ module.exports = {
   // testResultsProcessor: undefined,
 
   // This option allows use of a custom test runner
-  // testRunner: "jest-circus/runner",
+  testRunner: 'jest-jasmine2',
 
   // A map from regular expressions to paths to transformers
   transform: {

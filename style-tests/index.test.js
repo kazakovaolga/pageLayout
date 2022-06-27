@@ -6,9 +6,12 @@ expect.extend({ toMatchImageSnapshot });
 describe("styles.test", () => {
     // Give time to any async operation to complete after each test
 
+    let originalTimeout;
     beforeEach(() => {
-        jest.useFakeTimers();
-      });    
+    originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
+    });
+    afterEach(() => (jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout));   
 
     [
         { width: 529, height: 2000 },
